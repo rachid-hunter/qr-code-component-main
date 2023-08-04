@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Outfit&display=swap');
+
+body{
+    background: hsl(212, 45%, 89%);
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 300px;
+    border: 2px #fff solid;
+    border-radius: 20px;
+    box-shadow: 2px 2px 60px hsl(220, 15%, 55%);;
+    background-color: #fff;
+    display: block;
+    margin: auto;  
+    margin-top: 15%; 
+}
+.container .QR-code img{
+    border-radius: 10px;
+    width: 275px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 5%);
+    
+
+}
+.container .discription h2{
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    font-family: 'Montserrat', sans-serif;
+
+}
+.container .discription p{
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
